@@ -8,6 +8,7 @@
 import MainSite from './components/MainSite.vue'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 export default {
   name: 'App',
   components: {
@@ -17,5 +18,10 @@ export default {
 </script>
 
 <style lang="scss">
-#app {}
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
 </style>
